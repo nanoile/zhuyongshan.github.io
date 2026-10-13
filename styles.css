@@ -7,3 +7,13 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 
 .hero-eyebrow,.hero-bottom{color:#493346}.hero-cta{border-bottom-color:#49334680}.hero-caption{bottom:12px}
+
+/* Original paper figures, cropped from the authors' PDFs. */
+.paper{grid-template-columns:280px 1fr}
+.paper-figure{height:180px;background:#fff;border:1px solid var(--line);padding:12px 12px 30px;transition:border-color .2s,box-shadow .2s}
+.paper-figure img{display:block;width:100%;height:100%;object-fit:contain}
+.figure-zoom{position:absolute;right:12px;bottom:8px;font-size:9px;color:var(--rose);letter-spacing:.025em}
+.paper-figure:hover{border-color:#bc98a5;box-shadow:0 4px 16px #4933460a}
+.paper-figure:focus-visible{outline:2px solid var(--rose);outline-offset:4px}
+@media(max-width:1000px){.paper{grid-template-columns:230px 1fr}.paper-figure{height:170px}}
+@media(max-width:700px){.paper{grid-template-columns:1fr}.paper-figure{height:auto;aspect-ratio:1.8;max-height:260px}.paper-figure img{min-height:0}.figure-zoom{font-size:10px}}

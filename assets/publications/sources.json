@@ -1,0 +1,41 @@
+[
+  {
+    "file": "rsvg-zeroov.png",
+    "source_pdf": "https://arxiv.org/pdf/2606.16124",
+    "pdf_page": 6,
+    "figure": 4,
+    "crop_points": [
+      47,
+      43,
+      565,
+      155
+    ],
+    "alt": "RSVG-ZeroOV image grounding pipeline with diffusion and vision-language attention, refinement, and SAM output."
+  },
+  {
+    "file": "provg.png",
+    "source_pdf": "https://arxiv.org/pdf/2604.01893",
+    "pdf_page": 1,
+    "figure": 1,
+    "crop_points": [
+      317,
+      243,
+      559,
+      393
+    ],
+    "alt": "ProVG survey-locate-verify grounding paradigm alongside staged human visual cognition."
+  },
+  {
+    "file": "ddtm.png",
+    "source_pdf": "https://arxiv.org/pdf/2512.19990",
+    "pdf_page": 2,
+    "figure": 1,
+    "crop_points": [
+      48,
+      50,
+      564,
+      227
+    ],
+    "alt": "DDTM architecture with a diffusion branch, transformer branch, and pseudo-label confidence evaluation module."
+  }
+]

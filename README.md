@@ -27,3 +27,7 @@ The original CSS sunset scene uses a palette inspired by Stefanie Sun's Aut Nihi
 ## Blog
 
 See `BLOG.md` for adding posts. Run `python3 scripts/build-blog.py` after editing `content/posts.json` or the article bodies. The first welcome article is a labelled sample.
+
+## Publication figures
+
+Publication thumbnails are cropped from the original paper PDFs: RSVG-ZeroOV Figure 4 (PDF page 6), ProVG Figure 1 (page 1), and DDTM Figure 1 (page 2). `assets/publications/sources.json` records the source URLs and exact PDF crop rectangles. WebP thumbnails load in the list; clicking a figure opens its high-resolution PNG.
