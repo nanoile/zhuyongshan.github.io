@@ -1,0 +1,11 @@
+[
+  {
+    "slug": "welcome-to-the-notebook",
+    "title": "Welcome to the notebook",
+    "category": "Notes",
+    "status": "Sample post",
+    "date": null,
+    "excerpt": "A place for research notes, ideas in progress, and the next chapter — from Xidian to Westlake.",
+    "body_file": "welcome.html"
+  }
+]
